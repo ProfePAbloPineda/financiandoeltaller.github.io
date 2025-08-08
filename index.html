@@ -1,54 +1,143 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyectos financiados con DaleProfe</title> <img src="logo.png" alt="Imagen 2022" style="max-width: 20%; height: auto;">
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .button-container {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-        .button-container a {
-            text-decoration: none;
-        }
-        .button {
-            padding: 15px 30px;
-            font-size: 16px;
-            color: white;
-            background-color: #007bff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-align: center;
-        }
-        .button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taller de Robótica Inclusiva</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #005f73;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .gallery figure {
+      position: relative;
+      margin: 0;
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .gallery img {
+      width: 100%;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery figure:hover img {
+      transform: scale(1.03);
+    }
+
+    .gallery figcaption {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding: 0.6rem;
+      font-size: 0.95rem;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #e0e0e0;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-    <h1>Proyectos financiados con DaleProfe</h1>
-    <div class="button-container">
-        <a href="https://www.daleprofe.cl/proyectos/programaci-n-para-la-robotica-nivel-inicial-1014" class="button">El inicio de un sueño</a>
-        <a href="https://www.daleprofe.cl/proyectos/programaci-n-aplicada-a-la-rob-tica-2-1209" class="button">Implementando el taller</a>
-        <a href="https://www.daleprofe.cl/proyectos/consolidando-el-taller-de-robtica-inclusiva-1705" class="button">Consolidando el taller de robótica</a>
-        <a href="https://www.daleprofe.cl/proyectos/taller-de-robotica-rumbo-al-mundial-de-turquia-2230" class="button">Camino al mundial de Turquía</a>
-    </div>
+
+  <header>
+    <h1>Taller de Robótica Inclusiva</h1>
+    <p>Una mirada en imágenes a nuestra trayectoria</p>
+  </header>
+
+  <section class="gallery">
+    <figure>
+      <img src="1.jpeg" alt="Foto 1">
+      <figcaption>Inauguración del taller en 2023</figcaption>
+    </figure>
+    <figure>
+      <img src="2.jpeg" alt="Foto 2">
+      <figcaption>Participación de estudiantes en una actividad práctica</figcaption>
+    </figure>
+    <figure>
+      <img src="3.jpeg" alt="Foto 3">
+      <figcaption>Uso de sensores ultrasónicos en prototipos</figcaption>
+    </figure>
+    <figure>
+      <img src="4.jpeg" alt="Foto 4">
+      <figcaption>Trabajo colaborativo entre participantes</figcaption>
+    </figure>
+    <figure>
+      <img src="5.jpeg" alt="Foto 5">
+      <figcaption>Construcción de robots móviles</figcaption>
+    </figure>
+    <figure>
+      <img src="6.jpeg" alt="Foto 6">
+      <figcaption>Integración de estudiantes con diversas capacidades</figcaption>
+    </figure>
+    <figure>
+      <img src="7.jpeg" alt="Foto 7">
+      <figcaption>Demostración en feria tecnológica</figcaption>
+    </figure>
+    <figure>
+      <img src="8.jpeg" alt="Foto 8">
+      <figcaption>Clase sobre programación por bloques</figcaption>
+    </figure>
+    <figure>
+      <img src="9.jpeg" alt="Foto 9">
+      <figcaption>Aplicaciones prácticas de robótica en la vida cotidiana</figcaption>
+    </figure>
+    <figure>
+      <img src="10.jpeg" alt="Foto 10">
+      <figcaption>Estudiantes presentando sus prototipos</figcaption>
+    </figure>
+    <figure>
+      <img src="11.jpeg" alt="Foto 11">
+      <figcaption>Visita de autoridades al taller</figcaption>
+    </figure>
+    <figure>
+      <img src="12.jpeg" alt="Foto 12">
+      <figcaption>Cierre del ciclo con exhibición final</figcaption>
+    </figure>
+  </section>
+
+  <footer>
+    © 2025 Taller de Robótica Inclusiva – Todos los derechos reservados.
+  </footer>
+
 </body>
 </html>
