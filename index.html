@@ -29,6 +29,37 @@
       margin-top: 0.5rem;
     }
 
+    /* Contenedor del botón */
+    .cta-container {
+      text-align: center;
+      padding: 1.5rem 1rem 0.5rem;
+    }
+
+    /* Botón/enlace bonito */
+    .cta-button {
+      display: inline-block;
+      padding: 0.8rem 1.4rem;
+      background-color: #0a9396;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #007f86;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .cta-button:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -84,10 +115,22 @@
     <p>Una mirada en imágenes a nuestra trayectoria</p>
   </header>
 
+  <!-- Botón debajo del título y sobre las fotos -->
+  <div class="cta-container">
+    <a
+      href="https://daleprofe.cl/proyectos?gad_source=1&gad_campaignid=22295500055&gclid=EAIaIQobChMIlI3H3OCKkQMVtWNIAB0gOzlPEAAYASAAEgJJRPD_BwE"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="cta-button"
+    >
+      Apóyanos en DaleProfe
+    </a>
+  </div>
+
   <section class="gallery">
     <figure>
       <img src="1.jpg" alt="Foto 1">
-      <figcaption>Un da de trabajo del taller en 2023</figcaption>
+      <figcaption>Un dia de trabajo del taller en 2023</figcaption>
     </figure>
     <figure>
       <img src="2.JPG" alt="Foto 2">
@@ -119,7 +162,7 @@
     </figure>
     <figure>
       <img src="9.jpeg" alt="Foto 9">
-      <figcaption>Proyectos EPA</figcaption>
+      <figcaption>Proectos EPA</figcaption>
     </figure>
     <figure>
       <img src="10.jpeg" alt="Foto 10">
@@ -127,21 +170,21 @@
     </figure>
     <figure>
       <img src="11.jpeg" alt="Foto 11">
-      <figcaption>Domótica con Minecraft</figcaption>
+      <figcaption>Domotica con Minecraft</figcaption>
     </figure>
     <figure>
       <img src="12.jpeg" alt="Foto 12">
       <figcaption>Enseñando a los nuevos</figcaption>
     </figure>
-     <figure>
+    <figure>
       <img src="13.jpeg" alt="Foto 13">
       <figcaption>Nuevo grupo 2025</figcaption>
     </figure>
-     <figure>
+    <figure>
       <img src="14.jpeg" alt="Foto 14">
       <figcaption>Entrenamiento WRO 2025</figcaption>
     </figure>
-     <figure>
+    <figure>
       <img src="15.jpeg" alt="Foto 15">
       <figcaption>Trabajo jueves grupo 2025</figcaption>
     </figure>
